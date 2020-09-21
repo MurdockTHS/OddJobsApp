@@ -8,5 +8,6 @@ namespace OddJobsApp.Models.Data
 {
     public class DB : DbContext
     {
+        public DbSet<UserDTO> Users { get; set; }
     }
 }
